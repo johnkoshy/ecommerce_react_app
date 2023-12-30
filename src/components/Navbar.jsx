@@ -63,7 +63,7 @@ return () => window.removeEventListener
 
       <NavButton 
       title="Cart" 
-      customFunc={() => handleClick('cart')} 
+      customFunc={() => handleClick('cart')}
       color={currentColor} 
       icon={<FiShoppingCart />}       
       />
@@ -99,7 +99,7 @@ return () => window.removeEventListener
               <span className="text-gray-400 
               text-14">Hello, </span> {' '}
               <span className="text-gray-400 
-              font-bold ml-1 text-14">John</span>
+              font-bold ml-1 text-14">John &#128075;</span>
             </p>
             <MdKeyboardArrowDown 
             className="text-gray-400 text-14" />
